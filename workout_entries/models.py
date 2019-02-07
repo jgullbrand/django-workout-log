@@ -8,7 +8,7 @@ class GymEntry(models.Model):
 	owner = models.ForeignKey(User, on_delete=models.CASCADE)
 
 	def __str__(self):
-		return ("Entry # {}".format(self.id))	
+		return ("Entry # {} - Owner: {}".format(self.id, self.owner))	
 
 	class Meta:
 		verbose_name_plural = "GymEntries"	
