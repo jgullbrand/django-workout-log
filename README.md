@@ -1,5 +1,3 @@
-## Exercise Log - privately log your workouts to keep track of your progress!
-https://jgexerciselog.herokuapp.com/accounts/login/
 
 Implemented user authentication - users can register an account, login and logout:
 
